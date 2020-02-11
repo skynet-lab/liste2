@@ -8,6 +8,7 @@ body{
     background-position: center;
     
     
+    
 }
 table{
     border-collapse: collapse;
@@ -17,13 +18,13 @@ table{
     margin-right: auto;
     width: 80%;
     background-color: white;
+
    
     
 }
 
 td{
     border: 1px solid black;
-    padding-left: 7px;
     
 }
 
@@ -83,13 +84,13 @@ caption{
  }
  th.nm{ text-align: left;}
 
- .dev{
+ /*.dev{
      color: rgb(224, 6, 6);
      text-align: left;
      width: 32%;
      text-align: right;
      position: absolute; top: 62px; left: 90px;
-     font-size: 22px;
+     font-size: 1.375em;
      font-family: sans-serif;
  }
  .date{
@@ -113,12 +114,15 @@ caption{
     text-align: left;
     width: 34%;
     text-align: right;
-    position: absolute; top: 160px; left: 90px;
+    position: relative; top: 160px; left: 90px;
     font-weight: bold;
     font-size: 22px;
      font-family: sans-serif;
+     
 
  }
+ */
+
  /*.progress{
     height:30px;
     width:50%;
@@ -133,6 +137,45 @@ caption{
      background-color: red;
      margin-left: 14%;
      margin-top: 11%;
+     position: relative;
  }
+ .block1{
+display: flex; 
+justify-content: space-around;
+margin: 0;
+}
+
+.block2{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.block1 p{
+    font-size: 22px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.block2 p:nth-last-child(1){
+    font-size: 22px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.block2 p:first-child{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.rouge{
+    background-color: red;
+    height: 10px;
+    width: 60px;
+    bottom: 0em;
+    margin-left: 16%;
+    margin-top: -5px;
+    }
 
 
